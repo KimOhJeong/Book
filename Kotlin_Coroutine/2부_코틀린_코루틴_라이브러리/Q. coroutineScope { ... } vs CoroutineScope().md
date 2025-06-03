@@ -1,7 +1,5 @@
 # CoroutineScope vs coroutineScope
 
-Kotlin에서 `coroutineScope`와 `CoroutineScope`는 이름은 비슷하지만 **역할과 쓰임이 명확히 다릅니다**.
-
 ---
 
 ## ✅ 개념 비교 요약
