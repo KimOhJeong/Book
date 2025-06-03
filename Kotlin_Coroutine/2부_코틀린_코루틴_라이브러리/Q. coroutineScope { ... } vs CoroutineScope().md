@@ -30,7 +30,7 @@ suspend fun someWork() = coroutineScope {
 }
 ```
 
-## 📌 특징:
+### 📌 특징:
 부모 코루틴과 자식 코루틴이 강하게 연결됨
 내부 코루틴이 실패하면 전체 scope 취소됨
 
@@ -73,9 +73,6 @@ class MyClass {
     }
 }
 ```
-CoroutineScope: 외부 수명 관리용
-
-coroutineScope: 내부 구조화된 동시성 보장
 
 ## 요약
 | 항목       | `coroutineScope {}` | `CoroutineScope(...)` |
